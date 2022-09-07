@@ -24,7 +24,7 @@ def plot_blackjack_values(V):
         ax.set_zlabel('State Value')
         ax.view_init(ax.elev, -120)
 
-    fig = plt.figure(figsize=(20, 10))
+    fig = plt.figure(figsize=(10, 10))
     ax = fig.add_subplot(211, projection='3d')
     ax.set_title('Usable Ace')
     get_figure(True, ax)
